@@ -5,7 +5,7 @@ LABEL maintainer="glmahalhaes@hotmail.com"
 ENV IONIC_VERSION 3.9.2
 
 RUN npm i -g --unsafe-perm ionic@${IONIC_VERSION} && \
-    ionic --no-interactive config set -g daemon.updates false \
+    ionic --no-interactive config set -g daemon.updates false
 RUN apt-get update && apt-get install -y build-essential python-dev python-pip 
 RUN mkdir -p "${ANDROID_HOME}/licenses" 
 RUN echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "${ANDROID_HOME}/licenses/android-sdk-license" 
