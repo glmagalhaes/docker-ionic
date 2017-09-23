@@ -1,3 +1,4 @@
+![One does not simply use latest](https://dockeri.co/image/glmagalhaes/docker-ionic)
 # Latest Ionic
 
 ## based on the latest Cordova with the latest Android and the latest Node.js
