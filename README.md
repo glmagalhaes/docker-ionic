@@ -1,5 +1,6 @@
-![One does not simply use latest](https://dockeri.co/image/glmagalhaes/docker-ionic)
 # Latest Ionic
+
+[![docker-status](https://dockeri.co/image/glmagalhaes/docker-ionic)](https://hub.docker.com/r/glmagalhaes/docker-ionic/)
 
 ## based on the latest Cordova with the latest Android and the latest Node.js
 
